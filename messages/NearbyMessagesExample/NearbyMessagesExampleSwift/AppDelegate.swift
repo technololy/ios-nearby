@@ -58,7 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
           style: .plain, target: self, action: #selector(AppDelegate.toggleNearbyPermission))
       })
     setupStartStopButton()
-
+//works
     // Enable debug logging to help track down problems.
     GNSMessageManager.setDebugLoggingEnabled(true)
 
