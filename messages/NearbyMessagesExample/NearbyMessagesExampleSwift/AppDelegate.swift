@@ -19,7 +19,7 @@
 
 import UIKit
 
-let kMyAPIKey = "<insert API key here>"
+let kMyAPIKey = "AIzaSyCA7_CxmyWrP9-a-_1xf6JSWDBTaRVE5Ww"
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -44,7 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var navController: UINavigationController!
   var messageViewController: MessageViewController!
 
-  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     window = UIWindow(frame: UIScreen.main.bounds)
     messageViewController = MessageViewController()
     navController = UINavigationController(rootViewController: messageViewController)
@@ -100,13 +100,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
 
   /// Starts sharing with a randomized name.
-  func startSharingWithRandomName() {
-    startSharing(withName: String(format:"Anonymous %d", arc4random() % 100))
+    @objc func startSharingWithRandomName() {
+    startSharing(withName: String(format:"Anonymous device %d", arc4random() % 100))
     setupStartStopButton()
   }
 
   /// Stops publishing/subscribing.
-  func stopSharing() {
+    @objc func stopSharing() {
     publication = nil
     subscription = nil
     messageViewController.title = ""
@@ -114,7 +114,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
 
   /// Toggles the permission state of Nearby.
-  func toggleNearbyPermission() {
+    @objc func toggleNearbyPermission() {
     GNSPermission.setGranted(!GNSPermission.isGranted())
   }
 

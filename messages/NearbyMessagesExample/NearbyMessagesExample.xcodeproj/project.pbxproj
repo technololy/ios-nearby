@@ -36,9 +36,12 @@
 		41FCD7691AA104F90075222E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FCD7591AA104F90075222E /* Security.framework */; };
 		41FCD76A1AA104F90075222E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FCD75A1AA104F90075222E /* UIKit.framework */; };
 		41FCD76C1AA104F90075222E /* libobjc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FCD75C1AA104F90075222E /* libobjc.dylib */; };
+		459353E545DCDF2BB75312F8 /* libPods-NearbyMessagesExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD9726BD29D2D8F1E53F43 /* libPods-NearbyMessagesExample.a */; };
+		917A6E3BAB5DD3A1A0663256 /* libPods-NearbyMessagesExampleSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46962BFE872B5A0E9130BECC /* libPods-NearbyMessagesExampleSwift.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02BEC09A203FE109E8724AA4 /* Pods-NearbyMessagesExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyMessagesExample.release.xcconfig"; path = "Target Support Files/Pods-NearbyMessagesExample/Pods-NearbyMessagesExample.release.xcconfig"; sourceTree = "<group>"; };
 		100A2DF61B431A1F00B633C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = NearbyMessagesExample/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
 		100A2DF81B431B6300B633C4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NearbyMessagesExample/AppDelegate.h; sourceTree = "<group>"; };
 		100A2DF91B431B6300B633C4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NearbyMessagesExample/AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		10D58AE51B43354A0044702B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10D58AE71B43354A0044702B /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		10D58B051B440E790044702B /* NearbyMessagesExampleSwift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NearbyMessagesExampleSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		17BD9726BD29D2D8F1E53F43 /* libPods-NearbyMessagesExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NearbyMessagesExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4110CD781A9CF82000456D43 /* NearbyMessagesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyMessagesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4110CD881A9CF82000456D43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NearbyMessagesExample/Images.xcassets; sourceTree = "<group>"; };
 		41FCD7501AA104F90075222E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -63,6 +67,10 @@
 		41FCD7591AA104F90075222E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		41FCD75A1AA104F90075222E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		41FCD75C1AA104F90075222E /* libobjc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.dylib; path = usr/lib/libobjc.dylib; sourceTree = SDKROOT; };
+		46962BFE872B5A0E9130BECC /* libPods-NearbyMessagesExampleSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NearbyMessagesExampleSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98FC5000005739EA3CE06EF /* Pods-NearbyMessagesExampleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyMessagesExampleSwift.release.xcconfig"; path = "Target Support Files/Pods-NearbyMessagesExampleSwift/Pods-NearbyMessagesExampleSwift.release.xcconfig"; sourceTree = "<group>"; };
+		AE4175863239B6E1D8586CC5 /* Pods-NearbyMessagesExampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyMessagesExampleSwift.debug.xcconfig"; path = "Target Support Files/Pods-NearbyMessagesExampleSwift/Pods-NearbyMessagesExampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		C90E5D41E85EC2228F636B01 /* Pods-NearbyMessagesExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyMessagesExample.debug.xcconfig"; path = "Target Support Files/Pods-NearbyMessagesExample/Pods-NearbyMessagesExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,7 @@
 				10ADABE91B4AE787008E85AE /* Security.framework in Frameworks */,
 				10ADABE81B4AE780008E85AE /* UIKit.framework in Frameworks */,
 				10ADABE71B4AE771008E85AE /* CoreText.framework in Frameworks */,
+				917A6E3BAB5DD3A1A0663256 /* libPods-NearbyMessagesExampleSwift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +106,7 @@
 				41FCD7681AA104F90075222E /* MobileCoreServices.framework in Frameworks */,
 				41FCD7601AA104F90075222E /* CFNetwork.framework in Frameworks */,
 				41FCD7661AA104F90075222E /* Foundation.framework in Frameworks */,
+				459353E545DCDF2BB75312F8 /* libPods-NearbyMessagesExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +132,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		34FDF730EC672E9E8722E13C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C90E5D41E85EC2228F636B01 /* Pods-NearbyMessagesExample.debug.xcconfig */,
+				02BEC09A203FE109E8724AA4 /* Pods-NearbyMessagesExample.release.xcconfig */,
+				AE4175863239B6E1D8586CC5 /* Pods-NearbyMessagesExampleSwift.debug.xcconfig */,
+				A98FC5000005739EA3CE06EF /* Pods-NearbyMessagesExampleSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4110CD6F1A9CF82000456D43 = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +150,7 @@
 				10D58AE21B43354A0044702B /* NearbyMessagesExampleSwift */,
 				4110CDA41A9CFBF700456D43 /* Frameworks */,
 				4110CD791A9CF82000456D43 /* Products */,
+				34FDF730EC672E9E8722E13C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,6 +199,8 @@
 				41FCD7591AA104F90075222E /* Security.framework */,
 				41FCD75A1AA104F90075222E /* UIKit.framework */,
 				41FCD75C1AA104F90075222E /* libobjc.dylib */,
+				17BD9726BD29D2D8F1E53F43 /* libPods-NearbyMessagesExample.a */,
+				46962BFE872B5A0E9130BECC /* libPods-NearbyMessagesExampleSwift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -188,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10D58AFD1B43354A0044702B /* Build configuration list for PBXNativeTarget "NearbyMessagesExampleSwift" */;
 			buildPhases = (
+				5E2882770F28A1A8BEB4FBAC /* [CP] Check Pods Manifest.lock */,
 				10D58ADD1B43354A0044702B /* Sources */,
 				10D58ADE1B43354A0044702B /* Frameworks */,
 				10D58ADF1B43354A0044702B /* Resources */,
+				BB1E642EDC8A94CFBABF4272 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4110CD9B1A9CF82000456D43 /* Build configuration list for PBXNativeTarget "NearbyMessagesExample" */;
 			buildPhases = (
+				02999742895ED70409640714 /* [CP] Check Pods Manifest.lock */,
 				4110CD741A9CF82000456D43 /* Sources */,
 				4110CD751A9CF82000456D43 /* Frameworks */,
 				4110CD761A9CF82000456D43 /* Resources */,
+				78814662C7B4CB95F80C5827 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,22 +253,25 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = Google;
 				TargetAttributes = {
 					10D58AE01B43354A0044702B = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = A6CH8UB2L2;
 						LastSwiftMigration = 0810;
 					};
 					4110CD771A9CF82000456D43 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = A6CH8UB2L2;
 						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 4110CD731A9CF82000456D43 /* Build configuration list for PBXProject "NearbyMessagesExample" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -278,6 +309,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02999742895ED70409640714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NearbyMessagesExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E2882770F28A1A8BEB4FBAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NearbyMessagesExampleSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78814662C7B4CB95F80C5827 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NearbyMessagesExample/Pods-NearbyMessagesExample-resources.sh",
+				"${PODS_ROOT}/NearbyMessages/Resources/resources/GNSSharedResources.bundle",
+				"${PODS_ROOT}/NearbyMessages/Resources/resources/ic_expand_more.xcassets",
+				"${PODS_ROOT}/NearbyMessages/Resources/resources/ic_nearby_48pt.xcassets",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GNSSharedResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NearbyMessagesExample/Pods-NearbyMessagesExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB1E642EDC8A94CFBABF4272 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NearbyMessagesExampleSwift/Pods-NearbyMessagesExampleSwift-resources.sh",
+				"${PODS_ROOT}/NearbyMessages/Resources/resources/GNSSharedResources.bundle",
+				"${PODS_ROOT}/NearbyMessages/Resources/resources/ic_expand_more.xcassets",
+				"${PODS_ROOT}/NearbyMessages/Resources/resources/ic_nearby_48pt.xcassets",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GNSSharedResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NearbyMessagesExampleSwift/Pods-NearbyMessagesExampleSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10D58ADD1B43354A0044702B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -314,39 +434,43 @@
 /* Begin XCBuildConfiguration section */
 		10D58AFE1B43354A0044702B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4175863239B6E1D8586CC5 /* Pods-NearbyMessagesExampleSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = A6CH8UB2L2;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = NearbyMessagesExampleSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.google.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lolade.NearbyMsgLolade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "NearbyMessagesExampleSwift/NearbyMessagesExampleSwift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		10D58AFF1B43354A0044702B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98FC5000005739EA3CE06EF /* Pods-NearbyMessagesExampleSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = A6CH8UB2L2;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = NearbyMessagesExampleSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.google.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lolade.NearbyMsgLolade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "NearbyMessagesExampleSwift/NearbyMessagesExampleSwift-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -354,17 +478,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -374,6 +510,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -386,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -398,17 +535,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -417,15 +566,17 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -433,29 +584,41 @@
 		};
 		4110CD9C1A9CF82000456D43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90E5D41E85EC2228F636B01 /* Pods-NearbyMessagesExample.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6CH8UB2L2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					..,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/NearbyMessagesExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearby.sampletestLolade2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5;
 			};
 			name = Debug;
 		};
 		4110CD9D1A9CF82000456D43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02BEC09A203FE109E8724AA4 /* Pods-NearbyMessagesExample.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6CH8UB2L2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					..,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/NearbyMessagesExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearby.sampletestLolade2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5;
 			};
 			name = Release;
 		};
