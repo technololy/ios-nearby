@@ -38,7 +38,50 @@
 		41FCD76C1AA104F90075222E /* libobjc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FCD75C1AA104F90075222E /* libobjc.dylib */; };
 		459353E545DCDF2BB75312F8 /* libPods-NearbyMessagesExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD9726BD29D2D8F1E53F43 /* libPods-NearbyMessagesExample.a */; };
 		917A6E3BAB5DD3A1A0663256 /* libPods-NearbyMessagesExampleSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46962BFE872B5A0E9130BECC /* libPods-NearbyMessagesExampleSwift.a */; };
+		F9D5BF2A258C0ED300377703 /* OneBankNearByFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D5BF21258C0ED300377703 /* OneBankNearByFramework.framework */; };
+		F9D5BF31258C0ED300377703 /* OneBankNearByFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D5BF30258C0ED300377703 /* OneBankNearByFrameworkTests.swift */; };
+		F9D5BF33258C0ED300377703 /* OneBankNearByFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D5BF23258C0ED300377703 /* OneBankNearByFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9D5BF36258C0ED300377703 /* OneBankNearByFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D5BF21258C0ED300377703 /* OneBankNearByFramework.framework */; };
+		F9D5BF37258C0ED300377703 /* OneBankNearByFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F9D5BF21258C0ED300377703 /* OneBankNearByFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9D5BF2B258C0ED300377703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4110CD701A9CF82000456D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9D5BF20258C0ED300377703;
+			remoteInfo = OneBankNearByFramework;
+		};
+		F9D5BF2D258C0ED300377703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4110CD701A9CF82000456D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4110CD771A9CF82000456D43;
+			remoteInfo = NearbyMessagesExample;
+		};
+		F9D5BF34258C0ED300377703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4110CD701A9CF82000456D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9D5BF20258C0ED300377703;
+			remoteInfo = OneBankNearByFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F9D5BF38258C0ED300377703 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F9D5BF37258C0ED300377703 /* OneBankNearByFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		02BEC09A203FE109E8724AA4 /* Pods-NearbyMessagesExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyMessagesExample.release.xcconfig"; path = "Target Support Files/Pods-NearbyMessagesExample/Pods-NearbyMessagesExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +114,12 @@
 		A98FC5000005739EA3CE06EF /* Pods-NearbyMessagesExampleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyMessagesExampleSwift.release.xcconfig"; path = "Target Support Files/Pods-NearbyMessagesExampleSwift/Pods-NearbyMessagesExampleSwift.release.xcconfig"; sourceTree = "<group>"; };
 		AE4175863239B6E1D8586CC5 /* Pods-NearbyMessagesExampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyMessagesExampleSwift.debug.xcconfig"; path = "Target Support Files/Pods-NearbyMessagesExampleSwift/Pods-NearbyMessagesExampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		C90E5D41E85EC2228F636B01 /* Pods-NearbyMessagesExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyMessagesExample.debug.xcconfig"; path = "Target Support Files/Pods-NearbyMessagesExample/Pods-NearbyMessagesExample.debug.xcconfig"; sourceTree = "<group>"; };
+		F9D5BF21258C0ED300377703 /* OneBankNearByFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OneBankNearByFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D5BF23258C0ED300377703 /* OneBankNearByFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneBankNearByFramework.h; sourceTree = "<group>"; };
+		F9D5BF24258C0ED300377703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D5BF29258C0ED300377703 /* OneBankNearByFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneBankNearByFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D5BF30258C0ED300377703 /* OneBankNearByFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneBankNearByFrameworkTests.swift; sourceTree = "<group>"; };
+		F9D5BF32258C0ED300377703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +147,7 @@
 			files = (
 				41FCD7651AA104F90075222E /* CoreText.framework in Frameworks */,
 				41FCD76A1AA104F90075222E /* UIKit.framework in Frameworks */,
+				F9D5BF36258C0ED300377703 /* OneBankNearByFramework.framework in Frameworks */,
 				41FCD7691AA104F90075222E /* Security.framework in Frameworks */,
 				41FCD7641AA104F90075222E /* CoreMedia.framework in Frameworks */,
 				41FCD7621AA104F90075222E /* CoreFoundation.framework in Frameworks */,
@@ -107,6 +157,21 @@
 				41FCD7601AA104F90075222E /* CFNetwork.framework in Frameworks */,
 				41FCD7661AA104F90075222E /* Foundation.framework in Frameworks */,
 				459353E545DCDF2BB75312F8 /* libPods-NearbyMessagesExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D5BF1E258C0ED300377703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D5BF26258C0ED300377703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D5BF2A258C0ED300377703 /* OneBankNearByFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +213,8 @@
 			children = (
 				4110CD7A1A9CF82000456D43 /* NearbyMessagesExample */,
 				10D58AE21B43354A0044702B /* NearbyMessagesExampleSwift */,
+				F9D5BF22258C0ED300377703 /* OneBankNearByFramework */,
+				F9D5BF2F258C0ED300377703 /* OneBankNearByFrameworkTests */,
 				4110CDA41A9CFBF700456D43 /* Frameworks */,
 				4110CD791A9CF82000456D43 /* Products */,
 				34FDF730EC672E9E8722E13C /* Pods */,
@@ -159,6 +226,8 @@
 			children = (
 				4110CD781A9CF82000456D43 /* NearbyMessagesExample.app */,
 				10D58AE11B43354A0044702B /* NearbyMessagesExampleSwift.app */,
+				F9D5BF21258C0ED300377703 /* OneBankNearByFramework.framework */,
+				F9D5BF29258C0ED300377703 /* OneBankNearByFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,7 +274,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F9D5BF22258C0ED300377703 /* OneBankNearByFramework */ = {
+			isa = PBXGroup;
+			children = (
+				F9D5BF23258C0ED300377703 /* OneBankNearByFramework.h */,
+				F9D5BF24258C0ED300377703 /* Info.plist */,
+			);
+			path = OneBankNearByFramework;
+			sourceTree = "<group>";
+		};
+		F9D5BF2F258C0ED300377703 /* OneBankNearByFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9D5BF30258C0ED300377703 /* OneBankNearByFrameworkTests.swift */,
+				F9D5BF32258C0ED300377703 /* Info.plist */,
+			);
+			path = OneBankNearByFrameworkTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F9D5BF1C258C0ED300377703 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D5BF33258C0ED300377703 /* OneBankNearByFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		10D58AE01B43354A0044702B /* NearbyMessagesExampleSwift */ = {
@@ -236,15 +334,54 @@
 				4110CD751A9CF82000456D43 /* Frameworks */,
 				4110CD761A9CF82000456D43 /* Resources */,
 				78814662C7B4CB95F80C5827 /* [CP] Copy Pods Resources */,
+				F9D5BF38258C0ED300377703 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F9D5BF35258C0ED300377703 /* PBXTargetDependency */,
 			);
 			name = NearbyMessagesExample;
 			productName = Hello3P;
 			productReference = 4110CD781A9CF82000456D43 /* NearbyMessagesExample.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F9D5BF20258C0ED300377703 /* OneBankNearByFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D5BF3D258C0ED300377703 /* Build configuration list for PBXNativeTarget "OneBankNearByFramework" */;
+			buildPhases = (
+				F9D5BF1C258C0ED300377703 /* Headers */,
+				F9D5BF1D258C0ED300377703 /* Sources */,
+				F9D5BF1E258C0ED300377703 /* Frameworks */,
+				F9D5BF1F258C0ED300377703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneBankNearByFramework;
+			productName = OneBankNearByFramework;
+			productReference = F9D5BF21258C0ED300377703 /* OneBankNearByFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9D5BF28258C0ED300377703 /* OneBankNearByFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D5BF3E258C0ED300377703 /* Build configuration list for PBXNativeTarget "OneBankNearByFrameworkTests" */;
+			buildPhases = (
+				F9D5BF25258C0ED300377703 /* Sources */,
+				F9D5BF26258C0ED300377703 /* Frameworks */,
+				F9D5BF27258C0ED300377703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9D5BF2C258C0ED300377703 /* PBXTargetDependency */,
+				F9D5BF2E258C0ED300377703 /* PBXTargetDependency */,
+			);
+			name = OneBankNearByFrameworkTests;
+			productName = OneBankNearByFrameworkTests;
+			productReference = F9D5BF29258C0ED300377703 /* OneBankNearByFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -252,7 +389,8 @@
 		4110CD701A9CF82000456D43 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = Google;
 				TargetAttributes = {
@@ -266,6 +404,17 @@
 						DevelopmentTeam = A6CH8UB2L2;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
+					};
+					F9D5BF20258C0ED300377703 = {
+						CreatedOnToolsVersion = 12.2;
+						DevelopmentTeam = A6CH8UB2L2;
+						ProvisioningStyle = Automatic;
+					};
+					F9D5BF28258C0ED300377703 = {
+						CreatedOnToolsVersion = 12.2;
+						DevelopmentTeam = A6CH8UB2L2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4110CD771A9CF82000456D43;
 					};
 				};
 			};
@@ -284,6 +433,8 @@
 			targets = (
 				4110CD771A9CF82000456D43 /* NearbyMessagesExample */,
 				10D58AE01B43354A0044702B /* NearbyMessagesExampleSwift */,
+				F9D5BF20258C0ED300377703 /* OneBankNearByFramework */,
+				F9D5BF28258C0ED300377703 /* OneBankNearByFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -304,6 +455,20 @@
 			files = (
 				100A2DF71B431A1F00B633C4 /* LaunchScreen.xib in Resources */,
 				4110CD891A9CF82000456D43 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D5BF1F258C0ED300377703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D5BF27258C0ED300377703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +583,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9D5BF1D258C0ED300377703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D5BF25258C0ED300377703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D5BF31258C0ED300377703 /* OneBankNearByFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9D5BF2C258C0ED300377703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9D5BF20258C0ED300377703 /* OneBankNearByFramework */;
+			targetProxy = F9D5BF2B258C0ED300377703 /* PBXContainerItemProxy */;
+		};
+		F9D5BF2E258C0ED300377703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4110CD771A9CF82000456D43 /* NearbyMessagesExample */;
+			targetProxy = F9D5BF2D258C0ED300377703 /* PBXContainerItemProxy */;
+		};
+		F9D5BF35258C0ED300377703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9D5BF20258C0ED300377703 /* OneBankNearByFramework */;
+			targetProxy = F9D5BF34258C0ED300377703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		100A2DF51B431A1F00B633C4 /* LaunchScreen.xib */ = {
@@ -622,6 +820,134 @@
 			};
 			name = Release;
 		};
+		F9D5BF39258C0ED300377703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A6CH8UB2L2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OneBankNearByFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iconflux.OneBankNearByFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9D5BF3A258C0ED300377703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A6CH8UB2L2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OneBankNearByFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iconflux.OneBankNearByFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9D5BF3B258C0ED300377703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = A6CH8UB2L2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OneBankNearByFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iconflux.OneBankNearByFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyMessagesExample.app/NearbyMessagesExample";
+			};
+			name = Debug;
+		};
+		F9D5BF3C258C0ED300377703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = A6CH8UB2L2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OneBankNearByFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iconflux.OneBankNearByFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyMessagesExample.app/NearbyMessagesExample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -648,6 +974,24 @@
 			buildConfigurations = (
 				4110CD9C1A9CF82000456D43 /* Debug */,
 				4110CD9D1A9CF82000456D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D5BF3D258C0ED300377703 /* Build configuration list for PBXNativeTarget "OneBankNearByFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D5BF39258C0ED300377703 /* Debug */,
+				F9D5BF3A258C0ED300377703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D5BF3E258C0ED300377703 /* Build configuration list for PBXNativeTarget "OneBankNearByFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D5BF3B258C0ED300377703 /* Debug */,
+				F9D5BF3C258C0ED300377703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
