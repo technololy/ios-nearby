@@ -38,6 +38,7 @@
 		41FCD76C1AA104F90075222E /* libobjc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FCD75C1AA104F90075222E /* libobjc.dylib */; };
 		459353E545DCDF2BB75312F8 /* libPods-NearbyMessagesExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD9726BD29D2D8F1E53F43 /* libPods-NearbyMessagesExample.a */; };
 		917A6E3BAB5DD3A1A0663256 /* libPods-NearbyMessagesExampleSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46962BFE872B5A0E9130BECC /* libPods-NearbyMessagesExampleSwift.a */; };
+		F93377DF258C9554009E1AF1 /* NearByStandAloneClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93377DE258C9554009E1AF1 /* NearByStandAloneClass.swift */; };
 		F9D5BF2A258C0ED300377703 /* OneBankNearByFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D5BF21258C0ED300377703 /* OneBankNearByFramework.framework */; };
 		F9D5BF31258C0ED300377703 /* OneBankNearByFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D5BF30258C0ED300377703 /* OneBankNearByFrameworkTests.swift */; };
 		F9D5BF33258C0ED300377703 /* OneBankNearByFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D5BF23258C0ED300377703 /* OneBankNearByFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -114,6 +115,7 @@
 		A98FC5000005739EA3CE06EF /* Pods-NearbyMessagesExampleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyMessagesExampleSwift.release.xcconfig"; path = "Target Support Files/Pods-NearbyMessagesExampleSwift/Pods-NearbyMessagesExampleSwift.release.xcconfig"; sourceTree = "<group>"; };
 		AE4175863239B6E1D8586CC5 /* Pods-NearbyMessagesExampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyMessagesExampleSwift.debug.xcconfig"; path = "Target Support Files/Pods-NearbyMessagesExampleSwift/Pods-NearbyMessagesExampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		C90E5D41E85EC2228F636B01 /* Pods-NearbyMessagesExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyMessagesExample.debug.xcconfig"; path = "Target Support Files/Pods-NearbyMessagesExample/Pods-NearbyMessagesExample.debug.xcconfig"; sourceTree = "<group>"; };
+		F93377DE258C9554009E1AF1 /* NearByStandAloneClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByStandAloneClass.swift; sourceTree = "<group>"; };
 		F9D5BF21258C0ED300377703 /* OneBankNearByFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OneBankNearByFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D5BF23258C0ED300377703 /* OneBankNearByFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneBankNearByFramework.h; sourceTree = "<group>"; };
 		F9D5BF24258C0ED300377703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				10D58AE51B43354A0044702B /* AppDelegate.swift */,
 				10D58AE71B43354A0044702B /* MessageViewController.swift */,
 				10D58AE31B43354A0044702B /* Supporting Files */,
+				F93377DE258C9554009E1AF1 /* NearByStandAloneClass.swift */,
 			);
 			path = NearbyMessagesExampleSwift;
 			sourceTree = "<group>";
@@ -569,6 +572,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10D58AE81B43354A0044702B /* MessageViewController.swift in Sources */,
+				F93377DF258C9554009E1AF1 /* NearByStandAloneClass.swift in Sources */,
 				10D58AE61B43354A0044702B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
